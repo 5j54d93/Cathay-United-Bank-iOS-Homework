@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FriendTableView" customModule="Cathay_United_Bank_iOS_Homework" customModuleProvider="target">
+            <connections>
+                <outlet property="friendTableView" destination="Bb8-gk-mba" id="a9w-ga-Pl4"/>
+                <outlet property="searchBar" destination="fbr-zH-oQK" id="PJW-gS-o5K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxG-7Z-XAG">
+                    <rect key="frame" x="20" y="15" width="353" height="36"/>
+                    <subviews>
+                        <searchBar contentMode="scaleAspectFit" placeholder="想轉一筆給誰呢？" translatesAutoresizingMaskIntoConstraints="NO" id="fbr-zH-oQK">
+                            <rect key="frame" x="0.0" y="0.0" width="303" height="36"/>
+                            <textInputTraits key="textInputTraits" keyboardType="namePhonePad" returnKeyType="search"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="2k1-dJ-b9E"/>
+                            </connections>
+                        </searchBar>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cj-P0-C16">
+                            <rect key="frame" x="303" y="0.0" width="50" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="fQW-7v-u9T"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="icBtnAddFriends"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="r58-VP-GlG"/>
+                    </constraints>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-gk-mba">
+                    <rect key="frame" x="20" y="61" width="353" height="791"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="V2T-DG-6Ph"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="YxG-7Z-XAG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5cq-80-Xca"/>
+                <constraint firstItem="Bb8-gk-mba" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="9gA-nt-lma"/>
+                <constraint firstAttribute="trailing" secondItem="YxG-7Z-XAG" secondAttribute="trailing" constant="20" id="HIq-Hd-saw"/>
+                <constraint firstItem="Bb8-gk-mba" firstAttribute="top" secondItem="YxG-7Z-XAG" secondAttribute="bottom" constant="10" id="MXc-jF-dTw"/>
+                <constraint firstAttribute="bottom" secondItem="Bb8-gk-mba" secondAttribute="bottom" id="QT0-sX-1ic"/>
+                <constraint firstAttribute="trailing" secondItem="Bb8-gk-mba" secondAttribute="trailing" constant="20" id="VGP-my-rKK"/>
+                <constraint firstItem="YxG-7Z-XAG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="vuf-fZ-pjV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="28" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icBtnAddFriends" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

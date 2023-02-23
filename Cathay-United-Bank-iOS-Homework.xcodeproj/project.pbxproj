@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		9C665A4F2999C8CE001507AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C665A4E2999C8CE001507AE /* AppDelegate.swift */; };
 		9C665A512999C8CE001507AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C665A502999C8CE001507AE /* SceneDelegate.swift */; };
-		9C665A532999C8CE001507AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C665A522999C8CE001507AE /* ViewController.swift */; };
-		9C665A562999C8CE001507AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C665A542999C8CE001507AE /* Main.storyboard */; };
 		9C665A582999C8CF001507AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C665A572999C8CF001507AE /* Assets.xcassets */; };
 		9C665A5B2999C8CF001507AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C665A592999C8CF001507AE /* LaunchScreen.storyboard */; };
+		9C7A1419299DB0D600F25DF2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A1418299DB0D600F25DF2 /* UserModel.swift */; };
+		9C7A141C299DB1FC00F25DF2 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A141B299DB1FC00F25DF2 /* UserViewModel.swift */; };
+		9C7A141E299DBB7A00F25DF2 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A141D299DBB7A00F25DF2 /* FriendModel.swift */; };
+		9C7A1420299DBBA300F25DF2 /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A141F299DBBA300F25DF2 /* FriendViewModel.swift */; };
+		9C7E86242999E54800BD475E /* FriendNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E86232999E54800BD475E /* FriendNavigationController.swift */; };
+		9C7E8626299A14E200BD475E /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E8625299A14E200BD475E /* FriendViewController.swift */; };
+		9C7E8629299A1A2F00BD475E /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E8628299A1A2F00BD475E /* UIColor+Extention.swift */; };
+		9C7E862C299CB13100BD475E /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E862B299CB13100BD475E /* UserInfoView.swift */; };
+		9C7E862E299CB14B00BD475E /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E862D299CB14B00BD475E /* UserInfoView.xib */; };
+		9C7E8630299CB32500BD475E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E862F299CB32500BD475E /* Colors.xcassets */; };
+		9C86E7DF29A3C89300780762 /* FriendTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86E7DE29A3C89300780762 /* FriendTableView.swift */; };
+		9C86E7E129A3C95500780762 /* FriendTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C86E7E029A3C95500780762 /* FriendTableView.xib */; };
+		9C86E7E429A3D66A00780762 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86E7E229A3D66A00780762 /* FriendTableViewCell.swift */; };
+		9C86E7E529A3D66A00780762 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C86E7E329A3D66A00780762 /* FriendTableViewCell.xib */; };
+		9C86E7E729A5187C00780762 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C86E7E629A5187C00780762 /* FriendViewController.xib */; };
+		9CF7134929A6649E00A06D98 /* FriendInvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7134829A6649E00A06D98 /* FriendInvitationView.swift */; };
+		9CF7134B29A664F400A06D98 /* FriendInvitationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7134A29A664F300A06D98 /* FriendInvitationView.xib */; };
+		9CF7135029A7AF4700A06D98 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7134E29A7AF4700A06D98 /* TabBarController.swift */; };
+		9CF828DB29A2065400BEA615 /* NoFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF828DA29A2065400BEA615 /* NoFriendView.swift */; };
+		9CF828DD29A2066A00BEA615 /* NoFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF828DC29A2066A00BEA615 /* NoFriendView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C665A4B2999C8CE001507AE /* Cathay-United-Bank-iOS-Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cathay-United-Bank-iOS-Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C665A4E2999C8CE001507AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C665A502999C8CE001507AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C665A522999C8CE001507AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C665A552999C8CE001507AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C665A572999C8CF001507AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C665A5A2999C8CF001507AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C665A5C2999C8CF001507AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7A1418299DB0D600F25DF2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9C7A141B299DB1FC00F25DF2 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9C7A141D299DBB7A00F25DF2 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		9C7A141F299DBBA300F25DF2 /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
+		9C7E86232999E54800BD475E /* FriendNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNavigationController.swift; sourceTree = "<group>"; };
+		9C7E8625299A14E200BD475E /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		9C7E8628299A1A2F00BD475E /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		9C7E862B299CB13100BD475E /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		9C7E862D299CB14B00BD475E /* UserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		9C7E862F299CB32500BD475E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9C86E7DE29A3C89300780762 /* FriendTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableView.swift; sourceTree = "<group>"; };
+		9C86E7E029A3C95500780762 /* FriendTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableView.xib; sourceTree = "<group>"; };
+		9C86E7E229A3D66A00780762 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		9C86E7E329A3D66A00780762 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		9C86E7E629A5187C00780762 /* FriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		9CF7134829A6649E00A06D98 /* FriendInvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInvitationView.swift; sourceTree = "<group>"; };
+		9CF7134A29A664F300A06D98 /* FriendInvitationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendInvitationView.xib; sourceTree = "<group>"; };
+		9CF7134E29A7AF4700A06D98 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9CF828DA29A2065400BEA615 /* NoFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFriendView.swift; sourceTree = "<group>"; };
+		9CF828DC29A2066A00BEA615 /* NoFriendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoFriendView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +94,87 @@
 			children = (
 				9C665A4E2999C8CE001507AE /* AppDelegate.swift */,
 				9C665A502999C8CE001507AE /* SceneDelegate.swift */,
-				9C665A522999C8CE001507AE /* ViewController.swift */,
-				9C665A542999C8CE001507AE /* Main.storyboard */,
+				9C7A1417299DB06F00F25DF2 /* Models */,
+				9C9975A72999D55A00B64D6A /* VIews */,
+				9C7A141A299DB1E700F25DF2 /* View Models */,
+				9C7E8627299A1A1600BD475E /* Extention */,
 				9C665A572999C8CF001507AE /* Assets.xcassets */,
+				9C7E862F299CB32500BD475E /* Colors.xcassets */,
 				9C665A592999C8CF001507AE /* LaunchScreen.storyboard */,
 				9C665A5C2999C8CF001507AE /* Info.plist */,
 			);
 			path = "Cathay-United-Bank-iOS-Homework";
+			sourceTree = "<group>";
+		};
+		9C7A1417299DB06F00F25DF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A1418299DB0D600F25DF2 /* UserModel.swift */,
+				9C7A141D299DBB7A00F25DF2 /* FriendModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C7A141A299DB1E700F25DF2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A141B299DB1FC00F25DF2 /* UserViewModel.swift */,
+				9C7A141F299DBBA300F25DF2 /* FriendViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9C7E86172999E28800BD475E /* FriendTab */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E86232999E54800BD475E /* FriendNavigationController.swift */,
+				9C7E8625299A14E200BD475E /* FriendViewController.swift */,
+				9C86E7E629A5187C00780762 /* FriendViewController.xib */,
+				9C7E862A299CB10400BD475E /* VIews */,
+			);
+			path = FriendTab;
+			sourceTree = "<group>";
+		};
+		9C7E8627299A1A1600BD475E /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E8628299A1A2F00BD475E /* UIColor+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		9C7E862A299CB10400BD475E /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E862B299CB13100BD475E /* UserInfoView.swift */,
+				9C7E862D299CB14B00BD475E /* UserInfoView.xib */,
+				9CF7134829A6649E00A06D98 /* FriendInvitationView.swift */,
+				9CF7134A29A664F300A06D98 /* FriendInvitationView.xib */,
+				9CF828DA29A2065400BEA615 /* NoFriendView.swift */,
+				9CF828DC29A2066A00BEA615 /* NoFriendView.xib */,
+				9CF7134729A65C8600A06D98 /* Friend List */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		9C9975A72999D55A00B64D6A /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				9CF7134E29A7AF4700A06D98 /* TabBarController.swift */,
+				9C7E86172999E28800BD475E /* FriendTab */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		9CF7134729A65C8600A06D98 /* Friend List */ = {
+			isa = PBXGroup;
+			children = (
+				9C86E7DE29A3C89300780762 /* FriendTableView.swift */,
+				9C86E7E029A3C95500780762 /* FriendTableView.xib */,
+				9C86E7E229A3D66A00780762 /* FriendTableViewCell.swift */,
+				9C86E7E329A3D66A00780762 /* FriendTableViewCell.xib */,
+			);
+			name = "Friend List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +235,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C86E7E729A5187C00780762 /* FriendViewController.xib in Resources */,
+				9CF7134B29A664F400A06D98 /* FriendInvitationView.xib in Resources */,
+				9C7E862E299CB14B00BD475E /* UserInfoView.xib in Resources */,
+				9C7E8630299CB32500BD475E /* Colors.xcassets in Resources */,
 				9C665A5B2999C8CF001507AE /* LaunchScreen.storyboard in Resources */,
+				9C86E7E529A3D66A00780762 /* FriendTableViewCell.xib in Resources */,
+				9CF828DD29A2066A00BEA615 /* NoFriendView.xib in Resources */,
 				9C665A582999C8CF001507AE /* Assets.xcassets in Resources */,
-				9C665A562999C8CE001507AE /* Main.storyboard in Resources */,
+				9C86E7E129A3C95500780762 /* FriendTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +254,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C665A532999C8CE001507AE /* ViewController.swift in Sources */,
+				9C7A141E299DBB7A00F25DF2 /* FriendModel.swift in Sources */,
+				9CF7134929A6649E00A06D98 /* FriendInvitationView.swift in Sources */,
+				9C7E8629299A1A2F00BD475E /* UIColor+Extention.swift in Sources */,
+				9CF7135029A7AF4700A06D98 /* TabBarController.swift in Sources */,
 				9C665A4F2999C8CE001507AE /* AppDelegate.swift in Sources */,
 				9C665A512999C8CE001507AE /* SceneDelegate.swift in Sources */,
+				9C7E8626299A14E200BD475E /* FriendViewController.swift in Sources */,
+				9C7E86242999E54800BD475E /* FriendNavigationController.swift in Sources */,
+				9C7A1420299DBBA300F25DF2 /* FriendViewModel.swift in Sources */,
+				9C86E7DF29A3C89300780762 /* FriendTableView.swift in Sources */,
+				9C7A141C299DB1FC00F25DF2 /* UserViewModel.swift in Sources */,
+				9C7E862C299CB13100BD475E /* UserInfoView.swift in Sources */,
+				9CF828DB29A2065400BEA615 /* NoFriendView.swift in Sources */,
+				9C7A1419299DB0D600F25DF2 /* UserModel.swift in Sources */,
+				9C86E7E429A3D66A00780762 /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C665A542999C8CE001507AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C665A552999C8CE001507AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C665A592999C8CF001507AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +412,6 @@
 				INFOPLIST_FILE = "Cathay-United-Bank-iOS-Homework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +439,6 @@
 				INFOPLIST_FILE = "Cathay-United-Bank-iOS-Homework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
