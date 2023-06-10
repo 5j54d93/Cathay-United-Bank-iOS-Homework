@@ -9,6 +9,8 @@ This app develop in MVVM architecture using UIKit, which could:
 - Search friend and hide upper view
 - Collapse friends invitations
 
+<img src="https://github.com/5j54d93/Cathay-United-Bank-iOS-Homework/blob/main/.github/Assets/ChooseSituation.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Cathay-United-Bank-iOS-Homework/blob/main/.github/Assets/NoFriends.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Cathay-United-Bank-iOS-Homework/blob/main/.github/Assets/HasFriendsWithoutInvitations.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Cathay-United-Bank-iOS-Homework/blob/main/.github/Assets/HasFriends&Invitations.gif" width='25%' height='100%'/>
+
 ## License：MIT
 
 This package is [MIT licensed](https://github.com/5j54d93/Cathay-United-Bank-iOS-Homework/blob/main/LICENSE).
