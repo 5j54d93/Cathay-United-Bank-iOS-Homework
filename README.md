@@ -5,7 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Cathay-United-Bank-iOS-Homework)
 
 This app develop in MVVM architecture using UIKit, which could:
-- Choose situation to call different API when friend tab will appear
+- Choose situation to call different API when friend tab view will appear
 - Search friend and hide upper view
 - Collapse friends invitations
 
